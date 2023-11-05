@@ -172,7 +172,7 @@ app.post("/addcontent", async (req, res) => {
     .update({
       github_username: githubusername,
       wakatime_api: wakatime_api,
-      wakatime_username: wakatimeUsername,
+      wakatime_username: "joel_j_george",
       wakatime_goal: wakatimeGoal,
     })
     .eq("uid", id);
